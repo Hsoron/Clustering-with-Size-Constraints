@@ -4,7 +4,6 @@ import time
 from scipy.spatial.distance import cdist
 import numpy as np
 from scipy.linalg import norm
-from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
 
 class FCM:
