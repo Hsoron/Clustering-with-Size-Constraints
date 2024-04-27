@@ -179,3 +179,5 @@ if __name__ == "__main__":
         plt.ylabel('Counts')
         # plt.savefig(f'Count of Items in Each Cluster of {pointCloud_name} by FCM.png', dpi=600)
         plt.show()
+
+        plot_clusters_3D(X, fcm_labels, fcm_centers, pointCloud_name)
